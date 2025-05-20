@@ -179,3 +179,11 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
+.dog-image {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-top: 1rem;
+}
