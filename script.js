@@ -1,4 +1,4 @@
-// Add smooth scrolling to navigation links
+// ナビゲーションリンクにスムーズスクロールを追加
 document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -8,5 +8,5 @@ document.querySelectorAll('a[href^="#"]').forEach(anchor => {
     });
 });
 
-// Add a simple alert for demonstration
-console.log("Portfolio site loaded!");
+// デモンストレーション用のシンプルなコンソールログ
+console.log("ポートフォリオサイトが読み込まれました！");
